@@ -10,11 +10,11 @@ We will use our 3 services **department-service**, **employee-service** and  **c
 As we want  **department-service** to get employee data from the **employee-service** we will have to introduce `Feign` in the **department-service**. The both other services will be used as they are.
 ### The dependency
 To use `Feign` we just have to add the `spring-cloud-starter-openfeign` to the `pom` of  **department-service**.
-
-
+### The EnableFeignClients annotation
+The ``
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzMjExODMzLDE4NDY0OTIzMjEsLTIwNz
-g0NjQ0NjcsLTIwMjA2MzM1MjYsLTEyNzUxMzE5MTUsODAwODYy
-NzI0LC0zNDg2OTk3NV19
+eyJoaXN0b3J5IjpbMTE2MzIyNjIzNSwxODQ2NDkyMzIxLC0yMD
+c4NDY0NDY3LC0yMDIwNjMzNTI2LC0xMjc1MTMxOTE1LDgwMDg2
+MjcyNCwtMzQ4Njk5NzVdfQ==
 -->
