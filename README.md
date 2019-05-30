@@ -57,8 +57,7 @@ public interface EmployeeServiceClient {
 }
 ```
 ### The DepartmentController
-In the 
-<del>striked</del>
+In the `DepartmentController` we don't more need the <del>RestTemplate</del> as we will use the `EmployeeServiceClient` to fetch employee data fro **employee-service**:
 
 
 ```
@@ -87,9 +86,9 @@ public class DepartmentController {
 
  to **employee-service** has three endpoi 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzgxMTk1NzAsMTk1MDM2NzUyMSwtOT
-M5MTgxNjE3LDg3MzQ4NjcxNywxMDIwNzg3Mjc1LC0zNDAxODk0
-NzEsMTE2MzIyNjIzNSwxODQ2NDkyMzIxLC0yMDc4NDY0NDY3LC
-0yMDIwNjMzNTI2LC0xMjc1MTMxOTE1LDgwMDg2MjcyNCwtMzQ4
-Njk5NzVdfQ==
+eyJoaXN0b3J5IjpbMTU0Mjc2OTY2OCwxOTUwMzY3NTIxLC05Mz
+kxODE2MTcsODczNDg2NzE3LDEwMjA3ODcyNzUsLTM0MDE4OTQ3
+MSwxMTYzMjI2MjM1LDE4NDY0OTIzMjEsLTIwNzg0NjQ0NjcsLT
+IwMjA2MzM1MjYsLTEyNzUxMzE5MTUsODAwODYyNzI0LC0zNDg2
+OTk3NV19
 -->
