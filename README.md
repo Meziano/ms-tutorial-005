@@ -35,10 +35,21 @@ public class DepartmentApplication {
 ### The EmployeeServiceClient Interface
 
 Feign allows building REST clients declaring and annotating an interface, the actual implementation is provisioned at runtime. 
-In our case we introduce a new interface `EmployeeServiceClient` that we annotate with ``  
+In our case we introduce a new interface `EmployeeServiceClient` that we annotate with `@FeignClient`:
+```
+package de.meziane.ms.controller;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name = "employee-service", url = "http://localhost:8082")
+public interface EmployeeServiceClient {
+
+}
+
+```  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzcxOTQ2NjksMTAyMDc4NzI3NSwtMz
-QwMTg5NDcxLDExNjMyMjYyMzUsMTg0NjQ5MjMyMSwtMjA3ODQ2
-NDQ2NywtMjAyMDYzMzUyNiwtMTI3NTEzMTkxNSw4MDA4NjI3Mj
-QsLTM0ODY5OTc1XX0=
+eyJoaXN0b3J5IjpbMTIzMjYxMzM5OSwxMDIwNzg3Mjc1LC0zND
+AxODk0NzEsMTE2MzIyNjIzNSwxODQ2NDkyMzIxLC0yMDc4NDY0
+NDY3LC0yMDIwNjMzNTI2LC0xMjc1MTMxOTE1LDgwMDg2MjcyNC
+wtMzQ4Njk5NzVdfQ==
 -->
