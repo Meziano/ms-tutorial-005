@@ -5,10 +5,11 @@
 In this tutorial we will use `Feign` for the communication between our **department-service** and **employee-service**.
 
 It's important to understand that `Feign` can be used independently from other `Spring Cloud Components`.
+We will use our 3 services **department-service**, **employee-service** and  **config-service** from [lat tutorial](https://github.com/Meziano/ms-tutorial-004).
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjQ5MjMyMSwtMjA3ODQ2NDQ2NywtMj
-AyMDYzMzUyNiwtMTI3NTEzMTkxNSw4MDA4NjI3MjQsLTM0ODY5
-OTc1XX0=
+eyJoaXN0b3J5IjpbMjA3MTYwNzQyOCwxODQ2NDkyMzIxLC0yMD
+c4NDY0NDY3LC0yMDIwNjMzNTI2LC0xMjc1MTMxOTE1LDgwMDg2
+MjcyNCwtMzQ4Njk5NzVdfQ==
 -->
