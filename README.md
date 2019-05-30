@@ -44,12 +44,20 @@ import org.springframework.cloud.openfeign.FeignClient;
 @FeignClient(name = "employee-service", url = "http://localhost:8082")
 public interface EmployeeServiceClient {
 }
-
 ```  
-We want our `Feign` iterface to get the *employees* for a give *department* so we have  to **employee-service** has three endpoi 
+We want our `Feign` iterface to get the *employees* for a give *department* so we have add a method to our interface:
+```
+package de.meziane.ms.controller;
+..
+@FeignClient(name = "employee-service", url = "http://localhost:8082")
+public interface EmployeeServiceClient {
+  
+}
+```
+ to **employee-service** has three endpoi 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzOTE4MTYxNyw4NzM0ODY3MTcsMTAyMD
-c4NzI3NSwtMzQwMTg5NDcxLDExNjMyMjYyMzUsMTg0NjQ5MjMy
-MSwtMjA3ODQ2NDQ2NywtMjAyMDYzMzUyNiwtMTI3NTEzMTkxNS
-w4MDA4NjI3MjQsLTM0ODY5OTc1XX0=
+eyJoaXN0b3J5IjpbMTk1MDM2NzUyMSwtOTM5MTgxNjE3LDg3Mz
+Q4NjcxNywxMDIwNzg3Mjc1LC0zNDAxODk0NzEsMTE2MzIyNjIz
+NSwxODQ2NDkyMzIxLC0yMDc4NDY0NDY3LC0yMDIwNjMzNTI2LC
+0xMjc1MTMxOTE1LDgwMDg2MjcyNCwtMzQ4Njk5NzVdfQ==
 -->
