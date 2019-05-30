@@ -59,7 +59,6 @@ public interface EmployeeServiceClient {
 ### The DepartmentController
 In the `DepartmentController` we don't more need the <del>RestTemplate</del> as we will use the `EmployeeServiceClient` to fetch employee data fro **employee-service**:
 
-
 ```
 package de.meziane.ms.controller;
 ..
@@ -80,15 +79,15 @@ public class DepartmentController {
     return dept;
   }
 }
-
 ```
-
+### Starting our microservices
+Let's now start the **employee-service**, **employee-service** and the **employee-service**
 
  to **employee-service** has three endpoi 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0Mjc2OTY2OCwxOTUwMzY3NTIxLC05Mz
-kxODE2MTcsODczNDg2NzE3LDEwMjA3ODcyNzUsLTM0MDE4OTQ3
-MSwxMTYzMjI2MjM1LDE4NDY0OTIzMjEsLTIwNzg0NjQ0NjcsLT
-IwMjA2MzM1MjYsLTEyNzUxMzE5MTUsODAwODYyNzI0LC0zNDg2
-OTk3NV19
+eyJoaXN0b3J5IjpbNTQ1Mzc2NjM5LDE5NTAzNjc1MjEsLTkzOT
+E4MTYxNyw4NzM0ODY3MTcsMTAyMDc4NzI3NSwtMzQwMTg5NDcx
+LDExNjMyMjYyMzUsMTg0NjQ5MjMyMSwtMjA3ODQ2NDQ2NywtMj
+AyMDYzMzUyNiwtMTI3NTEzMTkxNSw4MDA4NjI3MjQsLTM0ODY5
+OTc1XX0=
 -->
