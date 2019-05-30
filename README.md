@@ -88,9 +88,9 @@ If we request http://localhost:8081/departments/with-employees/2
 we get the IT-department with its employees: 
 ![The IT-Department with its employees using Feign](images/ITDeptWithItsEmployeesUsingFeign.png?raw=true)
 ### Summary
-We introduced `Feign` that 
+We introduced `Feign` that allows building REST clients declaring and annotating an interface to get  **department-service** and **employee-service** communicate.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjA0MzY1NywtODI5ODI1ODE5LC0xNj
+eyJoaXN0b3J5IjpbLTk0MzgxODQ5MywtODI5ODI1ODE5LC0xNj
 k1NTQ1MjgyLDE5NTAzNjc1MjEsLTkzOTE4MTYxNyw4NzM0ODY3
 MTcsMTAyMDc4NzI3NSwtMzQwMTg5NDcxLDExNjMyMjYyMzUsMT
 g0NjQ5MjMyMSwtMjA3ODQ2NDQ2NywtMjAyMDYzMzUyNiwtMTI3
