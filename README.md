@@ -43,13 +43,13 @@ import org.springframework.cloud.openfeign.FeignClient;
 
 @FeignClient(name = "employee-service", url = "http://localhost:8082")
 public interface EmployeeServiceClient {
-
 }
 
 ```  
+We want to As the **employee-service** has three endpoints  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjYxMzM5OSwxMDIwNzg3Mjc1LC0zND
-AxODk0NzEsMTE2MzIyNjIzNSwxODQ2NDkyMzIxLC0yMDc4NDY0
-NDY3LC0yMDIwNjMzNTI2LC0xMjc1MTMxOTE1LDgwMDg2MjcyNC
-wtMzQ4Njk5NzVdfQ==
+eyJoaXN0b3J5IjpbNzI0OTgwNzU3LDEwMjA3ODcyNzUsLTM0MD
+E4OTQ3MSwxMTYzMjI2MjM1LDE4NDY0OTIzMjEsLTIwNzg0NjQ0
+NjcsLTIwMjA2MzM1MjYsLTEyNzUxMzE5MTUsODAwODYyNzI0LC
+0zNDg2OTk3NV19
 -->
