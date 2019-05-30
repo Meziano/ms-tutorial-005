@@ -85,12 +85,12 @@ Let's now start the **config-service**, the **employee-service** and the **depar
 
 If we request 
 
-we get ![The IT-Department with its employees using Feign](images/)
+we get ![The IT-Department with its employees using Feign](images/ITDeptWithItsEmployeesUsingFeign.png?raw=true)
  to **employee-service** has three endpoi 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjUxMzU2NTYsLTE2OTU1NDUyODIsMT
-k1MDM2NzUyMSwtOTM5MTgxNjE3LDg3MzQ4NjcxNywxMDIwNzg3
-Mjc1LC0zNDAxODk0NzEsMTE2MzIyNjIzNSwxODQ2NDkyMzIxLC
-0yMDc4NDY0NDY3LC0yMDIwNjMzNTI2LC0xMjc1MTMxOTE1LDgw
-MDg2MjcyNCwtMzQ4Njk5NzVdfQ==
+eyJoaXN0b3J5IjpbLTgyOTgyNTgxOSwtMTY5NTU0NTI4MiwxOT
+UwMzY3NTIxLC05MzkxODE2MTcsODczNDg2NzE3LDEwMjA3ODcy
+NzUsLTM0MDE4OTQ3MSwxMTYzMjI2MjM1LDE4NDY0OTIzMjEsLT
+IwNzg0NjQ0NjcsLTIwMjA2MzM1MjYsLTEyNzUxMzE5MTUsODAw
+ODYyNzI0LC0zNDg2OTk3NV19
 -->
