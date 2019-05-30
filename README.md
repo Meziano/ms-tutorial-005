@@ -81,13 +81,14 @@ public class DepartmentController {
 }
 ```
 ### Starting our microservices
-Let's now start the **config-service**, the **employee-service** and the **department-service** with the same `configuration files` as in the (last tutorial)[https://github.com/Meziano/ms-tutorial-004] as `Spring`
+Let's now start the **config-service**, the **employee-service** and the **department-service** with the same `configuration files` as in the (last tutorial)[https://github.com/Meziano/ms-tutorial-004] of course as `Spring Boot Application`
 
+If we request 
  to **employee-service** has three endpoi 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODIwNTI0MiwxOTUwMzY3NTIxLC05Mz
-kxODE2MTcsODczNDg2NzE3LDEwMjA3ODcyNzUsLTM0MDE4OTQ3
-MSwxMTYzMjI2MjM1LDE4NDY0OTIzMjEsLTIwNzg0NjQ0NjcsLT
-IwMjA2MzM1MjYsLTEyNzUxMzE5MTUsODAwODYyNzI0LC0zNDg2
-OTk3NV19
+eyJoaXN0b3J5IjpbLTE2OTU1NDUyODIsMTk1MDM2NzUyMSwtOT
+M5MTgxNjE3LDg3MzQ4NjcxNywxMDIwNzg3Mjc1LC0zNDAxODk0
+NzEsMTE2MzIyNjIzNSwxODQ2NDkyMzIxLC0yMDc4NDY0NDY3LC
+0yMDIwNjMzNTI2LC0xMjc1MTMxOTE1LDgwMDg2MjcyNCwtMzQ4
+Njk5NzVdfQ==
 -->
