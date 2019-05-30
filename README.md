@@ -5,19 +5,16 @@
 In this tutorial we will use `Feign` for the communication between our **department-service** and **employee-service**.
 
 It's important to understand that `Feign` can be used independently from other `Spring Cloud Components`.
-## Strategy
+### Strategy
 We will use our 3 services **department-service**, **employee-service** and  **config-service** from [last tutorial](https://github.com/Meziano/ms-tutorial-004).
 As we want  **department-service** to get employee data from the **employee-service** we will have to introduce `Feign` in the **department-service**. The both other services will be used as they are.
-
-<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-openfeign</artifactId>
-		</dependency>
+### The dependency
+To use `Feign` we just have to add the `spring-cloud-starter-openfeign` to the `pom` of  **department-service**.
 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQzMDYwNDcsMTg0NjQ5MjMyMSwtMjA3OD
-Q2NDQ2NywtMjAyMDYzMzUyNiwtMTI3NTEzMTkxNSw4MDA4NjI3
-MjQsLTM0ODY5OTc1XX0=
+eyJoaXN0b3J5IjpbODIzMjExODMzLDE4NDY0OTIzMjEsLTIwNz
+g0NjQ0NjcsLTIwMjA2MzM1MjYsLTEyNzUxMzE5MTUsODAwODYy
+NzI0LC0zNDg2OTk3NV19
 -->
