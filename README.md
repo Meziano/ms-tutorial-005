@@ -57,52 +57,29 @@ public interface EmployeeServiceClient {
 }
 ```
 ### The DepartmentController
-
+In the 
+<del>striked</del>
 
 
 ```
 package de.meziane.ms.controller;
-
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
-`<del>striked</del>`import org.springframework.web.client.RestTemplate;
-
-import de.meziane.ms.domain.*;
-import de.meziane.ms.repository.DepartmentRepository;
-
+..
 @RestController
 public class DepartmentController {
+  @Autowired
+  DepartmentRepository departmentRepository;
 
-	@Autowired
-	DepartmentRepository departmentRepository;
+  @Autowired
+  EmployeeServiceClient employeeServiceClient;
 
-	@Autowired
-	EmployeeServiceClient employeeServiceClient;
-
-	@GetMapping("/departments")
-	public List<Department> findAll() {
-		List<Department> depts = departmentRepository.findAll();
-		return depts;
-	}
-
-	@GetMapping("/departments/{id}")
-	public Department findById(@PathVariable Long id) {
-		Department dept = departmentRepository.getOne(id);
-		return dept;
-	}
-
-	@GetMapping("/departments/with-employees/{id}")
-	public Department findByIdWithEmployees(@PathVariable Long id) {
-		Department dept = departmentRepository.getOne(id);
-		List<Employee> employees = employeeServiceClient.getEmployeesForDeptId(id);
-		dept.setEmployees(employees);
-		return dept;
-	}
-
+  ..
+  @GetMapping("/departments/with-employees/{id}")
+  public Department findByIdWithEmployees(@PathVariable Long id) {
+    Department dept = departmentRepository.getOne(id);
+    List<Employee> employees = employeeServiceClient.getEmployeesForDeptId(id);
+    dept.setEmployees(employees);
+    return dept;
+  }
 }
 
 ```
@@ -110,9 +87,9 @@ public class DepartmentController {
 
  to **employee-service** has three endpoi 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTczMDg2MSwxOTUwMzY3NTIxLC05Mz
-kxODE2MTcsODczNDg2NzE3LDEwMjA3ODcyNzUsLTM0MDE4OTQ3
-MSwxMTYzMjI2MjM1LDE4NDY0OTIzMjEsLTIwNzg0NjQ0NjcsLT
-IwMjA2MzM1MjYsLTEyNzUxMzE5MTUsODAwODYyNzI0LC0zNDg2
-OTk3NV19
+eyJoaXN0b3J5IjpbLTEyNzgxMTk1NzAsMTk1MDM2NzUyMSwtOT
+M5MTgxNjE3LDg3MzQ4NjcxNywxMDIwNzg3Mjc1LC0zNDAxODk0
+NzEsMTE2MzIyNjIzNSwxODQ2NDkyMzIxLC0yMDc4NDY0NDY3LC
+0yMDIwNjMzNTI2LC0xMjc1MTMxOTE1LDgwMDg2MjcyNCwtMzQ4
+Njk5NzVdfQ==
 -->
