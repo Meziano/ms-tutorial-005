@@ -69,7 +69,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
+`<del>striked</del>`import org.springframework.web.client.RestTemplate;
 
 import de.meziane.ms.domain.*;
 import de.meziane.ms.repository.DepartmentRepository;
@@ -110,9 +110,9 @@ public class DepartmentController {
 
  to **employee-service** has three endpoi 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDIyNjQwMjgsMTk1MDM2NzUyMSwtOT
-M5MTgxNjE3LDg3MzQ4NjcxNywxMDIwNzg3Mjc1LC0zNDAxODk0
-NzEsMTE2MzIyNjIzNSwxODQ2NDkyMzIxLC0yMDc4NDY0NDY3LC
-0yMDIwNjMzNTI2LC0xMjc1MTMxOTE1LDgwMDg2MjcyNCwtMzQ4
-Njk5NzVdfQ==
+eyJoaXN0b3J5IjpbMTI3MTczMDg2MSwxOTUwMzY3NTIxLC05Mz
+kxODE2MTcsODczNDg2NzE3LDEwMjA3ODcyNzUsLTM0MDE4OTQ3
+MSwxMTYzMjI2MjM1LDE4NDY0OTIzMjEsLTIwNzg0NjQ0NjcsLT
+IwMjA2MzM1MjYsLTEyNzUxMzE5MTUsODAwODYyNzI0LC0zNDg2
+OTk3NV19
 -->
