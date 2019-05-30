@@ -45,7 +45,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 public interface EmployeeServiceClient {
 }
 ```  
-We want our `Feign` iterface to get the *employees* for a give *department* so we have add a method to our interface:
+We want our `Feign` interface to get the *employees* for a given *department* so we have to add a method to our interface:
 ```
 package de.meziane.ms.controller;
 ..
@@ -56,12 +56,13 @@ public interface EmployeeServiceClient {
   public List<Employee> getEmployeesForDeptId(@PathVariable Long deptId);
 }
 ```
+### The DepartmentController
 
  to **employee-service** has three endpoi 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTkwMjA2MjEsMTk1MDM2NzUyMSwtOT
-M5MTgxNjE3LDg3MzQ4NjcxNywxMDIwNzg3Mjc1LC0zNDAxODk0
-NzEsMTE2MzIyNjIzNSwxODQ2NDkyMzIxLC0yMDc4NDY0NDY3LC
-0yMDIwNjMzNTI2LC0xMjc1MTMxOTE1LDgwMDg2MjcyNCwtMzQ4
-Njk5NzVdfQ==
+eyJoaXN0b3J5IjpbLTc4MDkxMDYzNCwxOTUwMzY3NTIxLC05Mz
+kxODE2MTcsODczNDg2NzE3LDEwMjA3ODcyNzUsLTM0MDE4OTQ3
+MSwxMTYzMjI2MjM1LDE4NDY0OTIzMjEsLTIwNzg0NjQ0NjcsLT
+IwMjA2MzM1MjYsLTEyNzUxMzE5MTUsODAwODYyNzI0LC0zNDg2
+OTk3NV19
 -->
