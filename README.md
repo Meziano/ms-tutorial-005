@@ -32,11 +32,13 @@ public class DepartmentApplication {
     }
 }
 ```
+### The EmployeeServiceClient Interface
 
-Feign allows building REST clients declaring and annotating an interface, the actual implementation is provisioned at runtime 
+Feign allows building REST clients declaring and annotating an interface, the actual implementation is provisioned at runtime. 
+In our case we introduce a new interface `EmployeeServiceClient` that we annotate with ``  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDc4NzI3NSwtMzQwMTg5NDcxLDExNj
-MyMjYyMzUsMTg0NjQ5MjMyMSwtMjA3ODQ2NDQ2NywtMjAyMDYz
-MzUyNiwtMTI3NTEzMTkxNSw4MDA4NjI3MjQsLTM0ODY5OTc1XX
-0=
+eyJoaXN0b3J5IjpbLTExNzcxOTQ2NjksMTAyMDc4NzI3NSwtMz
+QwMTg5NDcxLDExNjMyMjYyMzUsMTg0NjQ5MjMyMSwtMjA3ODQ2
+NDQ2NywtMjAyMDYzMzUyNiwtMTI3NTEzMTkxNSw4MDA4NjI3Mj
+QsLTM0ODY5OTc1XX0=
 -->
