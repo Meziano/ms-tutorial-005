@@ -83,14 +83,16 @@ public class DepartmentController {
 ### Starting our microservices
 Let's now start the **config-service**, the **employee-service** and the **department-service** with the same `configuration files` as in the (last tutorial)[https://github.com/Meziano/ms-tutorial-004] of course as `Spring Boot Application`
 
-If we request 
+If we request http://localhost:8081/departments/with-employees/2
 
-we get ![The IT-Department with its employees using Feign](images/ITDeptWithItsEmployeesUsingFeign.png?raw=true)
- to **employee-service** has three endpoi 
+we get the IT-department with its employees: 
+![The IT-Department with its employees using Feign](images/ITDeptWithItsEmployeesUsingFeign.png?raw=true)
+### Summary
+We introduced `Feign` that 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTgyNTgxOSwtMTY5NTU0NTI4MiwxOT
-UwMzY3NTIxLC05MzkxODE2MTcsODczNDg2NzE3LDEwMjA3ODcy
-NzUsLTM0MDE4OTQ3MSwxMTYzMjI2MjM1LDE4NDY0OTIzMjEsLT
-IwNzg0NjQ0NjcsLTIwMjA2MzM1MjYsLTEyNzUxMzE5MTUsODAw
-ODYyNzI0LC0zNDg2OTk3NV19
+eyJoaXN0b3J5IjpbLTI2MjA0MzY1NywtODI5ODI1ODE5LC0xNj
+k1NTQ1MjgyLDE5NTAzNjc1MjEsLTkzOTE4MTYxNyw4NzM0ODY3
+MTcsMTAyMDc4NzI3NSwtMzQwMTg5NDcxLDExNjMyMjYyMzUsMT
+g0NjQ5MjMyMSwtMjA3ODQ2NDQ2NywtMjAyMDYzMzUyNiwtMTI3
+NTEzMTkxNSw4MDA4NjI3MjQsLTM0ODY5OTc1XX0=
 -->
