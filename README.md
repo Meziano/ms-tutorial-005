@@ -46,9 +46,9 @@ public interface EmployeeServiceClient {
 }
 
 ```  
-We want our `Feign` iterface to get the *employees* for a give *department* As the **employee-service** has three endpoints  
+We want our `Feign` iterface to get the *employees* for a give *department* so we have to **employee-service** has three endpoi 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzNzUyNzg4LDEwMjA3ODcyNzUsLTM0MD
+eyJoaXN0b3J5IjpbODczNDg2NzE3LDEwMjA3ODcyNzUsLTM0MD
 E4OTQ3MSwxMTYzMjI2MjM1LDE4NDY0OTIzMjEsLTIwNzg0NjQ0
 NjcsLTIwMjA2MzM1MjYsLTEyNzUxMzE5MTUsODAwODYyNzI0LC
 0zNDg2OTk3NV19
