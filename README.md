@@ -84,11 +84,13 @@ public class DepartmentController {
 Let's now start the **config-service**, the **employee-service** and the **department-service** with the same `configuration files` as in the (last tutorial)[https://github.com/Meziano/ms-tutorial-004] of course as `Spring Boot Application`
 
 If we request 
+
+we get ![The IT-Department with its employees using Feign](images/)
  to **employee-service** has three endpoi 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTU1NDUyODIsMTk1MDM2NzUyMSwtOT
-M5MTgxNjE3LDg3MzQ4NjcxNywxMDIwNzg3Mjc1LC0zNDAxODk0
-NzEsMTE2MzIyNjIzNSwxODQ2NDkyMzIxLC0yMDc4NDY0NDY3LC
-0yMDIwNjMzNTI2LC0xMjc1MTMxOTE1LDgwMDg2MjcyNCwtMzQ4
-Njk5NzVdfQ==
+eyJoaXN0b3J5IjpbLTE4MjUxMzU2NTYsLTE2OTU1NDUyODIsMT
+k1MDM2NzUyMSwtOTM5MTgxNjE3LDg3MzQ4NjcxNywxMDIwNzg3
+Mjc1LC0zNDAxODk0NzEsMTE2MzIyNjIzNSwxODQ2NDkyMzIxLC
+0yMDc4NDY0NDY3LC0yMDIwNjMzNTI2LC0xMjc1MTMxOTE1LDgw
+MDg2MjcyNCwtMzQ4Njk5NzVdfQ==
 -->
