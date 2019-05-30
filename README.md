@@ -12,7 +12,10 @@ As we want  **department-service** to get employee data from the **employee-serv
 ### The dependency
 To use `Feign` we just have to add the `spring-cloud-starter-openfeign` to the `pom` of  **department-service**:
 ```
-
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-openfeign</artifactId>
+</dependency>
 ```
 ### The EnableFeignClients annotation
 The `DepartmentApplication` must be annotated with *EnableFeignClients*. 
@@ -29,10 +32,11 @@ public class DepartmentApplication {
     }
 }
 ```
+
 Feign allows building REST clients declaring and annotating an interface, the actual implementation is provisioned at runtime 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDYyMjYwNDEsLTM0MDE4OTQ3MSwxMT
-YzMjI2MjM1LDE4NDY0OTIzMjEsLTIwNzg0NjQ0NjcsLTIwMjA2
-MzM1MjYsLTEyNzUxMzE5MTUsODAwODYyNzI0LC0zNDg2OTk3NV
-19
+eyJoaXN0b3J5IjpbMTAyMDc4NzI3NSwtMzQwMTg5NDcxLDExNj
+MyMjYyMzUsMTg0NjQ5MjMyMSwtMjA3ODQ2NDQ2NywtMjAyMDYz
+MzUyNiwtMTI3NTEzMTkxNSw4MDA4NjI3MjQsLTM0ODY5OTc1XX
+0=
 -->
