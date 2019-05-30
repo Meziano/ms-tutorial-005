@@ -51,13 +51,17 @@ package de.meziane.ms.controller;
 ..
 @FeignClient(name = "employee-service", url = "http://localhost:8082")
 public interface EmployeeServiceClient {
-  
+
+  @GetMapping("/{deptId}/employees")
+  public List<Employee> getEmployeesForDeptId(@PathVariable Long deptId);
 }
 ```
+
  to **employee-service** has three endpoi 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MDM2NzUyMSwtOTM5MTgxNjE3LDg3Mz
-Q4NjcxNywxMDIwNzg3Mjc1LC0zNDAxODk0NzEsMTE2MzIyNjIz
-NSwxODQ2NDkyMzIxLC0yMDc4NDY0NDY3LC0yMDIwNjMzNTI2LC
-0xMjc1MTMxOTE1LDgwMDg2MjcyNCwtMzQ4Njk5NzVdfQ==
+eyJoaXN0b3J5IjpbLTEwMTkwMjA2MjEsMTk1MDM2NzUyMSwtOT
+M5MTgxNjE3LDg3MzQ4NjcxNywxMDIwNzg3Mjc1LC0zNDAxODk0
+NzEsMTE2MzIyNjIzNSwxODQ2NDkyMzIxLC0yMDc4NDY0NDY3LC
+0yMDIwNjMzNTI2LC0xMjc1MTMxOTE1LDgwMDg2MjcyNCwtMzQ4
+Njk5NzVdfQ==
 -->
